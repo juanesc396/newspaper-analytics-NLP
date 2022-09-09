@@ -15,6 +15,7 @@ The model was tested by F1-Score.
 The Steps I followed were:
 1. Create Spiders (Scrapy classes that work as a scrapers).
 2. Recolect data from several newspapers with spiders.
-3. Clean the data extracted and stored in MongoDB
-4. Create the model with Spacy
-5. Analize the dataset scraped with the trained model with the goal to determinate how much news are negative
+3. Clean the data extracted and stored in MongoDB.
+4. Create the model with Spacy.
+5. Test the model to measure it's efficiency.
+6. Analize the dataset scraped with the trained model with the goal to determinate how much news are negative.
