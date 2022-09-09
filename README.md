@@ -5,17 +5,18 @@ In recent times, I have been observing how there is a large amount of news with 
 
 The tecnologies i used are:
 
-- Scrapy: Scrape the newspapers
-- Spacy: Library that allows me to train a Text Classification model
-- Pandas: ETL 
-- MongoDB: To store the data from newspapers
+- **Scrapy**: Scrape the newspapers
+- **Spacy**: Library that allows me to train a Text Classification model
+- **Pandas**: ETL 
+- **MongoDB**: To store the data from newspapers
 
 The model was tested by F1-Score. 
 
 The Steps I followed were:
 1. Create Spiders (Scrapy classes that work as a scrapers).
-2. Recolect data from several newspapers with spiders.
+2. Recolect data from several newspapers with Spiders.
 3. Clean the data extracted and stored in MongoDB.
-4. Create the model with Spacy.
-5. Test the model to measure it's efficiency.
-6. Analize the dataset scraped with the trained model with the goal to determinate how much news are negative.
+4. Create the DocBin (files that contains labeled data for training)
+5. Create the model with Spacy.
+6. Test the model to measure it's efficiency.
+7. Analize the dataset scraped with the trained model with the goal to determinate how much news are negative.
