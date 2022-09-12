@@ -21,4 +21,5 @@ The Steps I followed were:
 6. Test the model to measure it's efficiency.
 7. Analize the dataset scraped with the trained model with the goal to determinate how much news are negative.
 
+
 The analysis determined that the percentage of negative news is 72% with respect to the positive ones, which makes me think that spending a lot of time reading news could trigger negative thought tendencies.
