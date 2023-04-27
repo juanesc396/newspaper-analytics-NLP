@@ -1,4 +1,4 @@
-# NLP-in-newspaper-headlines
+# Newspaper Analytics: NLP model training
  This project seeks to train an nlp algorithm based on headlines scraped from newspapers.
 
 In recent times, I have been observing how there is a large amount of news with negative content. For this reason I set out to learn Natural Language Processing while finding out what percentage of news was negative. This project seeks to answer that unknown.
